@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <title>Project Tracker</title>
+</head>
+
+<body>
+
+<!--The standard way to ask for data is to display a form. The user fills in the form and submits it, and our webapp takes that input and processes it as before. -->
+
+<form action="/student-add" methods=["POST"]>
+    <label>First Name:
+        <input type="text" name="first_name">
+    </label>
+    <label>Last Name
+        <input type="text" name="last_name">
+    </label>
+    <label>Github name
+        <input type="text" name="github">
+    </label>
+    <input type="submit" value="Display Student">
+</form>
+
+</body>
+</html>
